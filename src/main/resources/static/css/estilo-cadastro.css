@@ -1,0 +1,98 @@
+body {
+	background: #eee url('https://img.freepik.com/fotos-gratis/arranjo-de-livros-antigos-com-espaco-de-copia_23-2148898331.jpg?w=740&t=st=1700525004~exp=1700525604~hmac=84386c88893e8f389f06425e168321907ebd834564cc37b4c4ccb0c4e6fcd0c9');
+}
+
+h1{
+	position:relative;
+	display: flex;
+  	justify-content: center;
+	font-family: sans-serif;
+	font-size: xx-large ;
+	color: #585858;
+}
+
+form {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #C9DFF0;
+	padding: 40px;
+}
+
+label {
+	position:relative;
+	display: flex;
+  	justify-content: left;
+	font-family: sans-serif;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-size: small ;
+	color: #585858;
+}
+
+input[type=text] {
+	display: inline-block;
+	text-align: center;
+	box-shadow: 3px 2px rgba(121, 83, 210, .3);
+	padding: 10px;
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+	background: transparent;
+	color: #585858;
+}
+
+input[type=text]:focus {
+	background: none;
+	border: none;
+	color: #585858;
+}
+
+button {
+	background: transparent;
+	position:relative;
+	display: flex;
+  	justify-content: center;
+	color:#585858;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 20px 0;
+	padding: 10px 30px;
+	border: 2px solid #585858;
+	width:335px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: transparent;
+	border: 2px solid#585858;
+}
+
+a {
+	text-decoration: none;
+	color: #585858;
+}
+
+a .button ,div .container{
+}
+
+a.button {
+	background: transparent;
+	position:relative;
+	display: flex;
+  	justify-content: center;
+	color:#585858;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 20px 0;
+	padding: 10px 30px;
+	border: 2px solid #585858;
+	width:270px;
+}
+
+a.button:hover {
+	background: transparent;
+	border: 2px solid #585858;
+}
